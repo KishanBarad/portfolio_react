@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Lemon&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    background: #1b242f;
+}
+.head{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+   
+}
+.logo{
+    color: white;
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Lemon', serif;
+}
+.navbars ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.navbars ul li{
+    list-style: none;
+}
+.navbars ul li a{
+    text-decoration: none;
+    margin: 0px 40px 0px 0px;
+}
+.navbars ul li a i{
+    font-size: 20px;
+    color: white;
+}
+.navbars ul li a i:hover{
+    color: gray;
+}
+.fa-phone{
+    font-size: 17px !important;
+    margin-right: 10px;
+}
+.project h1{
+    text-align: center;
+    letter-spacing: 20px;
+    font-weight: 500;
+}
+.card_button{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card_button a{
+    text-decoration: none;
+    margin-right: 20px;
+    text-align: center;
+    padding: 5px 30px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.card_button a:hover{
+    background: #1b242f;
+}
+.card-body p{
+    margin: 25px 0px;
+}
+.card-body h5{
+    margin-top: 10px;
+}
+.box{
+    padding: 20px 30px;
+}
+.project {
+    margin-top: 50px;
+}
+.dflex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    min-height: 400px;
+}
+
+
+
+
+
+
+.aboutsec{
+    text-align: center;
+}
+.aboutdet{
+    margin-top: 30px;
+}
+.aboutsec h1{
+    letter-spacing: 20px;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.aboutdet p{
+    padding: 0px 60px;
+}
+/* .title h2:after {
+    position: relative;
+    content: '';
+    top: 100%;
+    width: 110px;
+    height: 10px;
+    display: block;
+    margin: 0 auto;
+    background: #000;
+} */
+
+
+.skills h1{
+    letter-spacing: 10px;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 0px;
+}
+.skilldel img{
+    width: 200px;
+    height: 200px;
+   
+}
+.data{
+    text-align: center;
+    background: #1b242f;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+.data h3{
+    color: white;
+}
+
+
+@media(max-width:768px){
+    .head{
+        text-align: center;
+    }
+    .navbars ul{
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
